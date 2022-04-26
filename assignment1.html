@@ -1,0 +1,405 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>assignment 1</title>
+		<style type="text/css"></style>
+	</head>
+     <style type="text/css">
+     	* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif ;}
+     	.banner{
+     		height: 70px;
+     		max-width: 100%;
+     		background-color: #CE0505;
+     	}
+     	ul{  float: right;
+	       margin-top: 10px;
+            
+
+	
+
+}
+.parent{
+
+display: inline-flex;
+height: 1000px;
+width: 100%;
+
+
+}
+.child2{
+  height: 500px;
+  width: 800px;
+  border: 1px solid white;
+
+}
+.subchild2{
+	height: 250px;
+	width: 800px;
+	border: 1px solid white;
+	box-shadow:0px 3px 6px #00000029 ;
+	margin-left:35px ;
+}
+.subchild3{height: 250px;
+	width: 800px;
+	border: 1px solid white;
+	box-shadow:0px 3px 6px #00000029 ;
+	margin-left:35px ;
+	margin-top: 20px;
+
+
+
+}
+.navbar{
+	margin-right:180px ;
+	margin-left: 180px;
+	
+	justify-content: space-between;
+}
+     	.logo{margin-top: 8px;
+     		 
+     		height: 55px;
+     		width:55px;
+     		border-radius:60%;
+     		cursor: pointer;
+     	}
+     	
+
+     	.navbar ul li{
+     		margin-top: 17px;
+     		
+     		display: inline-table;
+
+     	}
+     	.navbar ul li a {
+     		text-decoration: none;
+	          color: #fff;
+	           padding: 8px 20px;
+	          border: 1px solid white;
+	          transition:0.3s ease ;
+     	}
+     	.navbar ul li a:hover{
+     		background-color: white;
+     		color: black;
+     	}
+     	h1{
+     		margin-left: 180px;
+     		margin-top: 20px;
+     		color: #192F60;
+     	}
+     	.filter{
+     		height: 600px;
+     		width: 210px;
+     		margin-top: 20px;
+     		margin-left: 180px;
+     		border: 1px solid white;
+     		box-shadow: 0px 3px 6px #00000029;
+     		
+     	}
+     	.f{color: #192F60;
+     		font:  normal normal 600 18px/27px Poppins;
+     		margin: 10px 23px;
+     		font-family: sans-serif;
+
+     	}
+     	.s{
+     		font:  normal 15px/21px Poppins;
+     		color:  #192F60;
+     		font-family: sans-serif;
+     		margin: 0px 23px;
+     		
+;
+     	}
+     	select{
+     		margin-top: 10px;
+     		height: 40px;
+     		border: 2px solid #8C96AB;
+     		border-radius: 3px;
+     		padding-top: 5px;
+     		padding-bottom: 5px;
+     		padding-left:12px;
+     		margin-left: 23px;
+     		margin-right: 10px;
+     		height: 30px;
+     		width: 170px;
+     		box-shadow: 0px 3px 6px #00000029;
+     		opacity: 0.5;
+
+     		
+     	}
+     	.paper{
+     		 border-radius:20px ;
+     		 height: 105px;
+     		 width: 110px;
+     		 margin: 23px;
+     	}
+
+    h2{font-family: sans-serif;
+    	margin-top: 30px;
+    	text-align: left;
+
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+    }
+.image{
+	display: inline-flex;
+}
+.h6{
+	
+	color:#192F60 ;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 5px 3px;
+	font-size: small;
+
+}
+hr{
+	border: 1px solid #DEDFE5;
+	box-shadow:0px 3px 6px #00000029 ;
+	width: 700px;
+	margin-left: 23px;
+}
+.p0{
+	
+	color:#192F60 ;
+	margin: 5px 23px 10px;
+	font-size: smaller;
+
+font-family: sans-serif;
+opacity: 0.6;
+
+}
+.check{
+	margin: 10px 20px;
+	opacity: 0.6;
+	font-size: smaller;
+text-align: justify;
+
+
+margin-bottom: 2px;
+Accent-color:  #192F60;
+font-weight:normal;
+
+
+}
+.legend{
+	 font-family: sans-serif;
+	color: #192F60 ;
+	margin: 10px 20px;
+	font-size:smaller;
+	font-weight:bold;
+	opacity: 0.6;
+
+
+
+
+}
+.legend1{margin: 10px 20px;
+	font-family: sans-serif;
+	color: #192F60 ;
+	margin: 10px 20px;
+	font-size:17px;
+	font-weight:bold;
+}
+
+
+.fort{
+	font-weight: bold;
+	font-family: sans-serif;
+
+}
+.shop{font-weight: bold;
+	font-family: sans-serif;
+	color: #636F88;
+  font-weight:100;
+  height: 20px;
+  margin-left: 2px;
+  font: normal normal normal 16px/30px ;
+}
+  .table{
+  	margin: 5px 20px;
+  	font-family: 10px sans-serif;
+  	width: 30px;
+
+}
+checkbox{
+	border: 2px solid #3A5075;
+border-radius: 2px;
+opacity: 1;
+}
+
+
+     </style>
+
+  
+    
+	<body>
+		
+		<div class="banner">
+			<div class="navbar"><img src="elogo2.jpg" class="logo">
+			<ul>
+				<li><a href="#">Login</a></li>
+					<li><a href="#">Create an account</a></li>
+                    
+			</ul>
+		</div>
+            </div>
+		
+		<h1>Breakfast Places In Mumbai</h1>
+    <div class="parent">
+	 <div class="filter">
+	 	
+	   <div class="f">Filters</div>
+	   <p class="s">Select Location</p>
+	   
+	   <select >
+	   	<option class="o">Select location</option>
+	   </select>
+	    <legend class="legend" >Cuisine:</legend>
+
+    <div class="check">
+      <input type="checkbox" id="scales" >
+             
+      <label for="scales">North Indian</label>
+    </div>
+
+    <div class="check">
+      <input  type="checkbox" id="horns" >
+      <label for="horns">South Indian</label>
+    </div>
+    <div class="check">
+      <input type="checkbox" id="horns" >
+      <label for="horns">Chinese</label>
+    </div>
+    <div class="check">
+      <input type="checkbox" id="horns" >
+      <label for="horns">Fast food</label>
+    </div>
+    <div class="check">
+      <input type="checkbox" id="horns" >
+      <label for="horns">Street food</label>
+    </div>
+	   
+	
+	 <legend class="legend">Cost for two:</legend>
+
+    <div class="check">
+
+      <input type="radio" id="scales" 
+             >
+      <label for="scales">Less than 500
+    </div>
+
+    <div class="check">
+      <input type="radio" id="horns" >
+      <label for="horns">500 to 1000</label>
+    </div>
+     <div class="check">
+      <input type="radio" id="horns" >
+      <label for="horns">100 to 1500</label>
+    </div>
+     <div class="check">
+      <input type="radio" id="horns" >
+      <label for="horns">1500 to 2000</label>
+    </div>
+     <div class="check">
+      <input type="radio" id="horns" >
+      <label for="horns">2000+</label>
+    </div>
+     
+ <p class="legend1">Sort</p>
+
+<div class="check">
+  <input type="radio" id="huey" name="drone" value="huey"
+         checked>
+  <label for="huey">Price Low To High</label>
+</div>
+
+<div class="check">
+  <input type="radio" id="dewey" name="drone" value="dewey">
+  <label for="dewey">Price High To Low</label></div>
+
+
+
+
+
+
+
+
+
+
+</div>
+	
+<div class="child2">
+	<div class="subchild2">
+		<div class="image">
+		<img src="paper.png" class="paper">
+		<div class="new"><h2>The Big Chill Cakery</h2>
+			
+		<p class="h6">FORT</p>
+		<p class="shop">Shop 1,Plot D,Samruddhi Complex,Chincholi...</p>
+
+		</div>
+	</div><hr/><br/>
+	<div>
+		<span style="font: normal normal normal 14px/22px sans-serif;color: #636F88;margin: 8px 23px;">CUISINES:</span>
+		<span style="font: normal normal normal 14px/20px sans-serif;color: #192F60;margin: 8px 50px;">Bakery</span>
+		
+	</div>
+	<div>
+		<span style="font: normal normal normal 14px/23px sans-serif;color: #636F88;margin: 8px 23px;">COST FOR TWO:</span>
+		<span style="font: normal normal normal 14px/20px sans-serif;color: #192F60;margin: 8px 9px;">R700</span>
+	</div>
+
+	</div>
+  <div class="subchild3">
+  	<div class="image">
+		<img src="paper.png" class="paper">
+		<div class="new"><h2>The Bake Shop</h2>
+			
+		<p class="h6">FORT</p>
+		<p class="shop">Shop 1,Plot D,Samruddhi Complex,Chincholi...</p>
+
+		</div>
+	</div><hr/><br/>
+		<div>
+		<span style="font: normal normal normal 14px/22px sans-serif;color: #636F88;margin: 8px 23px;">CUISINES:</span>
+		<span style="font: normal normal normal 14px/20px sans-serif;color: #192F60;margin: 8px 50px;">Bakery</span>
+		
+	</div>
+	<div>
+		<span style="font: normal normal normal 14px/23px sans-serif;color: #636F88;margin: 8px 23px;">COST FOR TWO:</span>
+		<span style="font: normal normal normal 14px/20px sans-serif;color: #192F60;margin: 8px 9px;">R700</span>
+	</div>
+	<div>	
+	</div>
+  	
+  
+  
+
+
+
+</div>
+
+</div>
+	
+	</body>
+	</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
